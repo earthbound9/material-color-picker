@@ -37,6 +37,7 @@ const PaletteBox = styled.div`
   border: 1px solid white;
   margin-right: 4px;
   background: grey;
+  cursor: pointer;
 `;
 
 export default ColorPalette;

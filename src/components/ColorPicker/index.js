@@ -78,10 +78,10 @@ class ColorPicker extends Component {
   };
 
   handleAddToPalette = e => {
-    const clr = this.state.colorValue;
+    const clr = [this.state.colorValue];
 
     this.setState({
-      palette: this.state.palette.concat(clr)
+      palette: clr.concat(this.state.palette)
     });
   };
 
@@ -97,6 +97,14 @@ class ColorPicker extends Component {
   handleColorScalePick = e => {
     const clr = e.target.style.background;
     this.colorTypeFac(clr);
+  };
+
+  handleColorPalettePick = e => {
+    const clr = e.target.style.background;
+    this.colorTypeFac(clr);
+    this.setState({
+      color: tinycolor(clr).toHslString()
+    });
   };
 
   render() {
@@ -130,7 +138,7 @@ class ColorPicker extends Component {
           handleColorScalePick={this.handleColorScalePick}
         />
         <ColorPalette
-          handleColorPick={this.handleColorScalePick}
+          handleColorPick={this.handleColorPalettePick}
           palette={palette}
         />
       </Wrapper>
