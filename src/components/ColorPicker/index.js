@@ -18,6 +18,12 @@ class ColorPicker extends Component {
     palette: []
   };
 
+  componentDidMount() {
+    const color = this.state.color;
+    const type = this.props.colorTypeGlobal;
+    this.colorTypeFac(color, type);
+  }
+
   colorTypeFac = (color, type = this.state.colorType) => {
     if (type === 'hexValue') {
       this.setState({ colorValue: tinycolor(color).toHexString() });
@@ -85,6 +91,7 @@ class ColorPicker extends Component {
     this.setState({ colorType: type });
 
     this.colorTypeFac(color, type);
+    this.props.handleColorType(e);
   };
 
   handleColorScalePick = e => {
@@ -93,35 +100,38 @@ class ColorPicker extends Component {
   };
 
   render() {
+    const { color, colorValue, colorType, ranges, palette } = this.state;
+    const { isDark, handleClipboard, colorTypeGlobal } = this.props;
     return (
       <Wrapper>
-        <ColorBackdrop color={this.state.color} />
+        <ColorBackdrop color={color} />
         <ColorWheelContainer>
           <ColorWheel handleColorChange={this.handleColorChange} />
           <ButtonSection>
             <Button text="Add To Palette" onClick={this.handleAddToPalette} />
 
             <ColorCode
-              handleClipboard={this.props.handleClipboard}
-              colorValue={this.state.colorValue}
-              colorType={this.state.colorType}
-              isDark={this.props.isDark}
-              onClick={this.props.handleClipboard}
+              handleClipboard={handleClipboard}
+              colorValue={colorValue}
+              colorType={colorType}
+              isDark={isDark}
+              onClick={handleClipboard}
             />
             <ColorType
               onChange={this.handleColorType}
-              colorValue={this.state.colorValue}
+              colorValue={colorValue}
+              colorType={colorTypeGlobal}
             />
           </ButtonSection>
         </ColorWheelContainer>
 
         <ColorScale
-          ranges={this.state.ranges}
+          ranges={ranges}
           handleColorScalePick={this.handleColorScalePick}
         />
         <ColorPalette
           handleColorPick={this.handleColorScalePick}
-          palette={this.state.palette}
+          palette={palette}
         />
       </Wrapper>
     );

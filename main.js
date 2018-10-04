@@ -30,7 +30,7 @@ function createWindow() {
     : mainWindow.loadFile(path.join(__dirname, './build/index.html'));
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools({ mode: 'detach' });
+  isDev && mainWindow.webContents.openDevTools({ mode: 'detach' });
 
   mainWindow.on('blur', function() {
     mainWindow.hide();
@@ -101,10 +101,6 @@ app.on('ready', () => {
       .then(name => console.log(`Added Extension:  ${name}`))
       .catch(err => console.log('An error occurred: ', err));
   }
-});
-
-app.on('blur', () => {
-  mainWindow.hide();
 });
 
 // Quit when all windows are closed.

@@ -8,7 +8,7 @@
   "homepage": "https://github.com/earthbound9/material-color-picker-electron",
   "version": "0.1.0",
   "main": "main.js",
-  "isDev": false,
+  "isDev": true,
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",

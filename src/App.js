@@ -107,6 +107,7 @@ class App extends Component {
           <ColorPicker
             handleColorType={this.handleColorType}
             handleClipboard={this.handleClipboard}
+            colorTypeGlobal={colorType}
           />
         )}
 

@@ -3,17 +3,32 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const ColorType = props => {
-  const { bgColor, isDark } = props;
+  const { bgColor, isDark, colorType } = props;
   return (
     <FormWrapper bgColor={bgColor} isDark={isDark}>
       <form onChange={props.onChange}>
-        <input type="radio" name="colorValue" id="hexValue" defaultChecked />
+        <input
+          type="radio"
+          name="colorValue"
+          id="hexValue"
+          defaultChecked={colorType === 'hexValue' && true}
+        />
         <label htmlFor="hexValue">HEX</label>
 
-        <input type="radio" name="colorValue" id="rgbValue" />
+        <input
+          type="radio"
+          name="colorValue"
+          id="rgbValue"
+          defaultChecked={colorType === 'rgbValue' && true}
+        />
         <label htmlFor="rgbValue">RGB</label>
 
-        <input type="radio" name="colorValue" id="hslValue" />
+        <input
+          type="radio"
+          name="colorValue"
+          id="hslValue"
+          defaultChecked={colorType === 'hslValue' && true}
+        />
         <label htmlFor="hslValue">HSL</label>
       </form>
 
@@ -70,7 +85,8 @@ ColorType.propTypes = {
   handleColorType: PropTypes.func,
   colorValue: PropTypes.string,
   colorType: PropTypes.string,
-  handleClipboard: PropTypes.func
+  handleClipboard: PropTypes.func,
+  checked: PropTypes.any
 };
 
 export default ColorType;
