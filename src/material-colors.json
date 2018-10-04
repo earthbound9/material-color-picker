@@ -1,0 +1,1896 @@
+{
+  "colors": [
+    {
+      "name": "Amber",
+      "order": 16,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#cbba83",
+          "isDark": false,
+          "lightValue": "#ffffe5",
+          "value": "#ffecb3"
+        },
+        {
+          "range": 200,
+          "darkValue": "#caae53",
+          "isDark": false,
+          "lightValue": "#ffffb3",
+          "value": "#ffe082"
+        },
+        {
+          "range": 300,
+          "darkValue": "#c8a415",
+          "isDark": false,
+          "lightValue": "#ffff81",
+          "value": "#ffd54f"
+        },
+        {
+          "range": 400,
+          "darkValue": "#c79a00",
+          "isDark": false,
+          "lightValue": "#fffd61",
+          "value": "#ffca28"
+        },
+        {
+          "range": 50,
+          "darkValue": "#ccc5af",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fff8e1"
+        },
+        {
+          "range": 500,
+          "darkValue": "#c79100",
+          "isDark": false,
+          "lightValue": "#fff350",
+          "value": "#ffc107"
+        },
+        {
+          "range": 600,
+          "darkValue": "#c68400",
+          "isDark": false,
+          "lightValue": "#ffe54c",
+          "value": "#ffb300"
+        },
+        {
+          "range": 700,
+          "darkValue": "#c67100",
+          "isDark": false,
+          "lightValue": "#ffd149",
+          "value": "#ffa000"
+        },
+        {
+          "range": 800,
+          "darkValue": "#c56000",
+          "isDark": false,
+          "lightValue": "#ffc046",
+          "value": "#ff8f00"
+        },
+        {
+          "range": 900,
+          "darkValue": "#c43e00",
+          "isDark": false,
+          "lightValue": "#ffa040",
+          "value": "#ff6f00"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#cab350",
+          "isDark": false,
+          "lightValue": "#ffffb0",
+          "value": "#ffe57f"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c8a600",
+          "isDark": false,
+          "lightValue": "#ffff74",
+          "value": "#ffd740"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#c79400",
+          "isDark": false,
+          "lightValue": "#fff64f",
+          "value": "#ffc400"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#c67c00",
+          "isDark": false,
+          "lightValue": "#ffdd4b",
+          "value": "#ffab00"
+        }
+      ]
+    },
+    {
+      "name": "Blue",
+      "order": 6,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#8aacc8",
+          "isDark": false,
+          "lightValue": "#eeffff",
+          "value": "#bbdefb"
+        },
+        {
+          "range": 200,
+          "darkValue": "#5d99c6",
+          "isDark": false,
+          "lightValue": "#c3fdff",
+          "value": "#90caf9"
+        },
+        {
+          "range": 300,
+          "darkValue": "#2286c3",
+          "isDark": false,
+          "lightValue": "#9be7ff",
+          "value": "#64b5f6"
+        },
+        {
+          "range": 400,
+          "darkValue": "#0077c2",
+          "isDark": false,
+          "lightValue": "#80d6ff",
+          "value": "#42a5f5"
+        },
+        {
+          "range": 50,
+          "darkValue": "#b1bfca",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e3f2fd"
+        },
+        {
+          "range": 500,
+          "darkValue": "#0069c0",
+          "isDark": false,
+          "lightValue": "#6ec6ff",
+          "value": "#2196f3"
+        },
+        {
+          "range": 600,
+          "darkValue": "#005cb2",
+          "isDark": true,
+          "lightValue": "#6ab7ff",
+          "value": "#1e88e5"
+        },
+        {
+          "range": 700,
+          "darkValue": "#004ba0",
+          "isDark": true,
+          "lightValue": "#63a4ff",
+          "value": "#1976d2"
+        },
+        {
+          "range": 800,
+          "darkValue": "#003c8f",
+          "isDark": true,
+          "lightValue": "#5e92f3",
+          "value": "#1565c0"
+        },
+        {
+          "range": 900,
+          "darkValue": "#002171",
+          "isDark": true,
+          "lightValue": "#5472d3",
+          "value": "#0d47a1"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#4d82cb",
+          "isDark": false,
+          "lightValue": "#b6e3ff",
+          "value": "#82b1ff"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#005ecb",
+          "isDark": true,
+          "lightValue": "#83b9ff",
+          "value": "#448aff"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#004ecb",
+          "isDark": true,
+          "lightValue": "#75a7ff",
+          "value": "#2979ff"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#0039cb",
+          "isDark": true,
+          "lightValue": "#768fff",
+          "value": "#2962ff"
+        }
+      ]
+    },
+    {
+      "name": "Cyan",
+      "order": 9,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#81b9bf",
+          "isDark": false,
+          "lightValue": "#e5ffff",
+          "value": "#b2ebf2"
+        },
+        {
+          "range": 200,
+          "darkValue": "#4bacb8",
+          "isDark": false,
+          "lightValue": "#b4ffff",
+          "value": "#80deea"
+        },
+        {
+          "range": 300,
+          "darkValue": "#009faf",
+          "isDark": false,
+          "lightValue": "#88ffff",
+          "value": "#4dd0e1"
+        },
+        {
+          "range": 400,
+          "darkValue": "#0095a8",
+          "isDark": false,
+          "lightValue": "#6ff9ff",
+          "value": "#26c6da"
+        },
+        {
+          "range": 50,
+          "darkValue": "#aec4c7",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e0f7fa"
+        },
+        {
+          "range": 500,
+          "darkValue": "#008ba3",
+          "isDark": false,
+          "lightValue": "#62efff",
+          "value": "#00bcd4"
+        },
+        {
+          "range": 600,
+          "darkValue": "#007c91",
+          "isDark": false,
+          "lightValue": "#5ddef4",
+          "value": "#00acc1"
+        },
+        {
+          "range": 700,
+          "darkValue": "#006978",
+          "isDark": true,
+          "lightValue": "#56c8d8",
+          "value": "#0097a7"
+        },
+        {
+          "range": 800,
+          "darkValue": "#005662",
+          "isDark": true,
+          "lightValue": "#4fb3bf",
+          "value": "#00838f"
+        },
+        {
+          "range": 900,
+          "darkValue": "#00363a",
+          "isDark": true,
+          "lightValue": "#428e92",
+          "value": "#006064"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#4bcbcc",
+          "isDark": false,
+          "lightValue": "#baffff",
+          "value": "#84ffff"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#00cbcc",
+          "isDark": false,
+          "lightValue": "#76ffff",
+          "value": "#18ffff"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#00b2cc",
+          "isDark": false,
+          "lightValue": "#6effff",
+          "value": "#00e5ff"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#0088a3",
+          "isDark": false,
+          "lightValue": "#62ebff",
+          "value": "#00b8d4"
+        }
+      ]
+    },
+    {
+      "name": "Deep Orange",
+      "order": 18,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#cb9b8c",
+          "isDark": false,
+          "lightValue": "#ffffee",
+          "value": "#ffccbc"
+        },
+        {
+          "range": 200,
+          "darkValue": "#c97b63",
+          "isDark": false,
+          "lightValue": "#ffddc1",
+          "value": "#ffab91"
+        },
+        {
+          "range": 300,
+          "darkValue": "#c75b39",
+          "isDark": false,
+          "lightValue": "#ffbb93",
+          "value": "#ff8a65"
+        },
+        {
+          "range": 400,
+          "darkValue": "#c63f17",
+          "isDark": false,
+          "lightValue": "#ffa270",
+          "value": "#ff7043"
+        },
+        {
+          "range": 50,
+          "darkValue": "#c8b7b5",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fbe9e7"
+        },
+        {
+          "range": 500,
+          "darkValue": "#c41c00",
+          "isDark": false,
+          "lightValue": "#ff8a50",
+          "value": "#ff5722"
+        },
+        {
+          "range": 600,
+          "darkValue": "#b91400",
+          "isDark": true,
+          "lightValue": "#ff844c",
+          "value": "#f4511e"
+        },
+        {
+          "range": 700,
+          "darkValue": "#ac0800",
+          "isDark": true,
+          "lightValue": "#ff7d47",
+          "value": "#e64a19"
+        },
+        {
+          "range": 800,
+          "darkValue": "#9f0000",
+          "isDark": true,
+          "lightValue": "#ff7543",
+          "value": "#d84315"
+        },
+        {
+          "range": 900,
+          "darkValue": "#870000",
+          "isDark": true,
+          "lightValue": "#f9683a",
+          "value": "#bf360c"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#c96f53",
+          "isDark": false,
+          "lightValue": "#ffd0b0",
+          "value": "#ff9e80"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c53d13",
+          "isDark": false,
+          "lightValue": "#ffa06d",
+          "value": "#ff6e40"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#c30000",
+          "isDark": true,
+          "lightValue": "#ff7539",
+          "value": "#ff3d00"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#a30000",
+          "isDark": true,
+          "lightValue": "#ff6434",
+          "value": "#dd2c00"
+        }
+      ]
+    },
+    {
+      "name": "Deep purple",
+      "oreder": 4,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#a094b7",
+          "isDark": false,
+          "lightValue": "#fff7ff",
+          "value": "#d1c4e9"
+        },
+        {
+          "range": 200,
+          "darkValue": "#836fa9",
+          "isDark": false,
+          "lightValue": "#e6ceff",
+          "value": "#b39ddb"
+        },
+        {
+          "range": 300,
+          "darkValue": "#65499c",
+          "isDark": true,
+          "lightValue": "#c7a4ff",
+          "value": "#9575cd"
+        },
+        {
+          "range": 400,
+          "darkValue": "#4d2c91",
+          "isDark": true,
+          "lightValue": "#b085f5",
+          "value": "#7e57c2"
+        },
+        {
+          "range": 50,
+          "darkValue": "#bbb5c3",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#ede7f6"
+        },
+        {
+          "range": 500,
+          "darkValue": "#320b86",
+          "isDark": true,
+          "lightValue": "#9a67ea",
+          "value": "#673ab7"
+        },
+        {
+          "range": 600,
+          "darkValue": "#280680",
+          "isDark": true,
+          "lightValue": "#9162e4",
+          "value": "#5e35b1"
+        },
+        {
+          "range": 700,
+          "darkValue": "#140078",
+          "isDark": true,
+          "lightValue": "#8559da",
+          "value": "#512da8"
+        },
+        {
+          "range": 800,
+          "darkValue": "#000070",
+          "isDark": true,
+          "lightValue": "#7953d2",
+          "value": "#4527a0"
+        },
+        {
+          "range": 900,
+          "darkValue": "#000063",
+          "isDark": true,
+          "lightValue": "#6746c3",
+          "value": "#311b92"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#805acb",
+          "isDark": false,
+          "lightValue": "#e7b9ff",
+          "value": "#b388ff"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#3f1dcb",
+          "isDark": true,
+          "lightValue": "#b47cff",
+          "value": "#7c4dff"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#0100ca",
+          "isDark": true,
+          "lightValue": "#a255ff",
+          "value": "#651fff"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#0a00b6",
+          "isDark": true,
+          "lightValue": "#9d46ff",
+          "value": "#6200ea"
+        }
+      ]
+    },
+    {
+      "name": "Green",
+      "order": 11,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#97b498",
+          "isDark": false,
+          "lightValue": "#fbfffc",
+          "value": "#c8e6c9"
+        },
+        {
+          "range": 200,
+          "darkValue": "#75a478",
+          "isDark": false,
+          "lightValue": "#d7ffd9",
+          "value": "#a5d6a7"
+        },
+        {
+          "range": 300,
+          "darkValue": "#519657",
+          "isDark": false,
+          "lightValue": "#b2fab4",
+          "value": "#81c784"
+        },
+        {
+          "range": 400,
+          "darkValue": "#338a3e",
+          "isDark": false,
+          "lightValue": "#98ee99",
+          "value": "#66bb6a"
+        },
+        {
+          "range": 50,
+          "darkValue": "#b6c2b7",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e8f5e9"
+        },
+        {
+          "range": 500,
+          "darkValue": "#087f23",
+          "isDark": false,
+          "lightValue": "#80e27e",
+          "value": "#4caf50"
+        },
+        {
+          "range": 600,
+          "darkValue": "#00701a",
+          "isDark": true,
+          "lightValue": "#76d275",
+          "value": "#43a047"
+        },
+        {
+          "range": 700,
+          "darkValue": "#00600f",
+          "isDark": true,
+          "lightValue": "#6abf69",
+          "value": "#388e3c"
+        },
+        {
+          "range": 800,
+          "darkValue": "#005005",
+          "isDark": true,
+          "lightValue": "#60ad5e",
+          "value": "#2e7d32"
+        },
+        {
+          "range": 900,
+          "darkValue": "#003300",
+          "isDark": true,
+          "lightValue": "#4c8c4a",
+          "value": "#1b5e20"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#88c399",
+          "isDark": false,
+          "lightValue": "#ecfffd",
+          "value": "#b9f6ca"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#2bbd7e",
+          "isDark": false,
+          "lightValue": "#9fffe0",
+          "value": "#69f0ae"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#00b248",
+          "isDark": false,
+          "lightValue": "#66ffa6",
+          "value": "#00e676"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#009624",
+          "isDark": false,
+          "lightValue": "#5efc82",
+          "value": "#00c853"
+        }
+      ]
+    },
+    {
+      "name": "Indigo",
+      "order": 5,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#9499b7",
+          "isDark": false,
+          "lightValue": "#f8fdff",
+          "value": "#c5cae9"
+        },
+        {
+          "range": 200,
+          "darkValue": "#6f79a8",
+          "isDark": false,
+          "lightValue": "#d1d9ff",
+          "value": "#9fa8da"
+        },
+        {
+          "range": 300,
+          "darkValue": "#49599a",
+          "isDark": true,
+          "lightValue": "#aab6fe",
+          "value": "#7986cb"
+        },
+        {
+          "range": 400,
+          "darkValue": "#26418f",
+          "isDark": true,
+          "lightValue": "#8e99f3",
+          "value": "#5c6bc0"
+        },
+        {
+          "range": 50,
+          "darkValue": "#b6b8c3",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e8eaf6"
+        },
+        {
+          "range": 500,
+          "darkValue": "#002984",
+          "isDark": true,
+          "lightValue": "#757de8",
+          "value": "#3f51b5"
+        },
+        {
+          "range": 600,
+          "darkValue": "#00227b",
+          "isDark": true,
+          "lightValue": "#6f74dd",
+          "value": "#3949ab"
+        },
+        {
+          "range": 700,
+          "darkValue": "#001970",
+          "isDark": true,
+          "lightValue": "#666ad1",
+          "value": "#303f9f"
+        },
+        {
+          "range": 800,
+          "darkValue": "#001064",
+          "isDark": true,
+          "lightValue": "#5f5fc4",
+          "value": "#283593"
+        },
+        {
+          "range": 900,
+          "darkValue": "#000051",
+          "isDark": true,
+          "lightValue": "#534bae",
+          "value": "#1a237e"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#5870cb",
+          "isDark": false,
+          "lightValue": "#c0cfff",
+          "value": "#8c9eff"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#0043ca",
+          "isDark": true,
+          "lightValue": "#8f9bff",
+          "value": "#536dfe"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#0031ca",
+          "isDark": true,
+          "lightValue": "#8187ff",
+          "value": "#3d5afe"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#0026ca",
+          "isDark": true,
+          "lightValue": "#7a7cff",
+          "value": "#304ffe"
+        }
+      ]
+    },
+    {
+      "name": "Light Blue",
+      "order": 7,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#82b3c9",
+          "isDark": false,
+          "lightValue": "#e6ffff",
+          "value": "#b3e5fc"
+        },
+        {
+          "range": 200,
+          "darkValue": "#4ba3c7",
+          "isDark": false,
+          "lightValue": "#b6ffff",
+          "value": "#81d4fa"
+        },
+        {
+          "range": 300,
+          "darkValue": "#0093c4",
+          "isDark": false,
+          "lightValue": "#8bf6ff",
+          "value": "#4fc3f7"
+        },
+        {
+          "range": 400,
+          "darkValue": "#0086c3",
+          "isDark": false,
+          "lightValue": "#73e8ff",
+          "value": "#29b6f6"
+        },
+        {
+          "range": 50,
+          "darkValue": "#afc2cb",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e1f5fe"
+        },
+        {
+          "range": 500,
+          "darkValue": "#007ac1",
+          "isDark": false,
+          "lightValue": "#67daff",
+          "value": "#03a9f4"
+        },
+        {
+          "range": 600,
+          "darkValue": "#006db3",
+          "isDark": false,
+          "lightValue": "#63ccff",
+          "value": "#039be5"
+        },
+        {
+          "range": 700,
+          "darkValue": "#005b9f",
+          "isDark": true,
+          "lightValue": "#5eb8ff",
+          "value": "#0288d1"
+        },
+        {
+          "range": 800,
+          "darkValue": "#004c8c",
+          "isDark": true,
+          "lightValue": "#58a5f0",
+          "value": "#0277bd"
+        },
+        {
+          "range": 900,
+          "darkValue": "#002f6c",
+          "isDark": true,
+          "lightValue": "#4f83cc",
+          "value": "#01579b"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#49a7cc",
+          "isDark": false,
+          "lightValue": "#b5ffff",
+          "value": "#80d8ff"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#0094cc",
+          "isDark": false,
+          "lightValue": "#82f7ff",
+          "value": "#40c4ff"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#0081cb",
+          "isDark": false,
+          "lightValue": "#69e2ff",
+          "value": "#00b0ff"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#0064b7",
+          "isDark": true,
+          "lightValue": "#64c1ff",
+          "value": "#0091ea"
+        }
+      ]
+    },
+    {
+      "name": "Light Green",
+      "order": 12,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#aabb97",
+          "isDark": false,
+          "lightValue": "#fffffb",
+          "value": "#dcedc8"
+        },
+        {
+          "range": 200,
+          "darkValue": "#94af76",
+          "isDark": false,
+          "lightValue": "#f8ffd7",
+          "value": "#c5e1a5"
+        },
+        {
+          "range": 300,
+          "darkValue": "#7da453",
+          "isDark": false,
+          "lightValue": "#e1ffb1",
+          "value": "#aed581"
+        },
+        {
+          "range": 400,
+          "darkValue": "#6b9b37",
+          "isDark": false,
+          "lightValue": "#cfff95",
+          "value": "#9ccc65"
+        },
+        {
+          "range": 50,
+          "darkValue": "#bec5b7",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#f1f8e9"
+        },
+        {
+          "range": 500,
+          "darkValue": "#5a9216",
+          "isDark": false,
+          "lightValue": "#bef67a",
+          "value": "#8bc34a"
+        },
+        {
+          "range": 600,
+          "darkValue": "#4b830d",
+          "isDark": false,
+          "lightValue": "#aee571",
+          "value": "#7cb342"
+        },
+        {
+          "range": 700,
+          "darkValue": "#387002",
+          "isDark": false,
+          "lightValue": "#99d066",
+          "value": "#689f38"
+        },
+        {
+          "range": 800,
+          "darkValue": "#255d00",
+          "isDark": true,
+          "lightValue": "#85bb5c",
+          "value": "#558b2f"
+        },
+        {
+          "range": 900,
+          "darkValue": "#003d00",
+          "isDark": true,
+          "lightValue": "#629749",
+          "value": "#33691e"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#99cc60",
+          "isDark": false,
+          "lightValue": "#ffffc2",
+          "value": "#ccff90"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#7ecb20",
+          "isDark": false,
+          "lightValue": "#e7ff8c",
+          "value": "#b2ff59"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#32cb00",
+          "isDark": false,
+          "lightValue": "#b0ff57",
+          "value": "#76ff03"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#1faa00",
+          "isDark": false,
+          "lightValue": "#9cff57",
+          "value": "#64dd17"
+        }
+      ]
+    },
+    {
+      "name": "Lime",
+      "order": 14,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#bdc192",
+          "isDark": false,
+          "lightValue": "#fffff6",
+          "value": "#f0f4c3"
+        },
+        {
+          "range": 200,
+          "darkValue": "#b3bc6d",
+          "isDark": false,
+          "lightValue": "#ffffce",
+          "value": "#e6ee9c"
+        },
+        {
+          "range": 300,
+          "darkValue": "#a8b545",
+          "isDark": false,
+          "lightValue": "#ffffa6",
+          "value": "#dce775"
+        },
+        {
+          "range": 400,
+          "darkValue": "#a0af22",
+          "isDark": false,
+          "lightValue": "#ffff89",
+          "value": "#d4e157"
+        },
+        {
+          "range": 50,
+          "darkValue": "#c6c8b5",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#f9fbe7"
+        },
+        {
+          "range": 500,
+          "darkValue": "#99aa00",
+          "isDark": false,
+          "lightValue": "#ffff6e",
+          "value": "#cddc39"
+        },
+        {
+          "range": 600,
+          "darkValue": "#8c9900",
+          "isDark": false,
+          "lightValue": "#f5fd67",
+          "value": "#c0ca33"
+        },
+        {
+          "range": 700,
+          "darkValue": "#7c8500",
+          "isDark": false,
+          "lightValue": "#e4e65e",
+          "value": "#afb42b"
+        },
+        {
+          "range": 800,
+          "darkValue": "#6c6f00",
+          "isDark": false,
+          "lightValue": "#d2ce56",
+          "value": "#9e9d24"
+        },
+        {
+          "range": 900,
+          "darkValue": "#524c00",
+          "isDark": true,
+          "lightValue": "#b4a647",
+          "value": "#827717"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#bfcc50",
+          "isDark": false,
+          "lightValue": "#ffffb3",
+          "value": "#f4ff81"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#b8cc00",
+          "isDark": false,
+          "lightValue": "#ffff78",
+          "value": "#eeff41"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#90cc00",
+          "isDark": false,
+          "lightValue": "#fdff58",
+          "value": "#c6ff00"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#79b700",
+          "isDark": false,
+          "lightValue": "#e4ff54",
+          "value": "#aeea00"
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "order": 17,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#cbae82",
+          "isDark": false,
+          "lightValue": "#ffffe4",
+          "value": "#ffe0b2"
+        },
+        {
+          "range": 200,
+          "darkValue": "#ca9b52",
+          "isDark": false,
+          "lightValue": "#ffffb0",
+          "value": "#ffcc80"
+        },
+        {
+          "range": 300,
+          "darkValue": "#c88719",
+          "isDark": false,
+          "lightValue": "#ffe97d",
+          "value": "#ffb74d"
+        },
+        {
+          "range": 400,
+          "darkValue": "#c77800",
+          "isDark": false,
+          "lightValue": "#ffd95b",
+          "value": "#ffa726"
+        },
+        {
+          "range": 50,
+          "darkValue": "#ccc0ae",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fff3e0"
+        },
+        {
+          "range": 500,
+          "darkValue": "#c66900",
+          "isDark": false,
+          "lightValue": "#ffc947",
+          "value": "#ff9800"
+        },
+        {
+          "range": 600,
+          "darkValue": "#c25e00",
+          "isDark": false,
+          "lightValue": "#ffbd45",
+          "value": "#fb8c00"
+        },
+        {
+          "range": 700,
+          "darkValue": "#bb4d00",
+          "isDark": false,
+          "lightValue": "#ffad42",
+          "value": "#f57c00"
+        },
+        {
+          "range": 800,
+          "darkValue": "#b53d00",
+          "isDark": false,
+          "lightValue": "#ff9d3f",
+          "value": "#ef6c00"
+        },
+        {
+          "range": 900,
+          "darkValue": "#ac1900",
+          "isDark": true,
+          "lightValue": "#ff833a",
+          "value": "#e65100"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#caa052",
+          "isDark": false,
+          "lightValue": "#ffffb1",
+          "value": "#ffd180"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c77c02",
+          "isDark": false,
+          "lightValue": "#ffdd71",
+          "value": "#ffab40"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#c56200",
+          "isDark": false,
+          "lightValue": "#ffc246",
+          "value": "#ff9100"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#c43c00",
+          "isDark": false,
+          "lightValue": "#ff9e40",
+          "value": "#ff6d00"
+        }
+      ]
+    },
+    {
+      "name": "Pink",
+      "order": 2,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#c48b9f",
+          "isDark": false,
+          "lightValue": "#ffeeff",
+          "value": "#f8bbd0"
+        },
+        {
+          "range": 200,
+          "darkValue": "#bf5f82",
+          "isDark": false,
+          "lightValue": "#ffc1e3",
+          "value": "#f48fb1"
+        },
+        {
+          "range": 300,
+          "darkValue": "#ba2d65",
+          "isDark": false,
+          "lightValue": "#ff94c2",
+          "value": "#f06292"
+        },
+        {
+          "range": 400,
+          "darkValue": "#b4004e",
+          "isDark": true,
+          "lightValue": "#ff77a9",
+          "value": "#ec407a"
+        },
+        {
+          "range": 50,
+          "darkValue": "#c9b2ba",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fce4ec"
+        },
+        {
+          "range": 500,
+          "darkValue": "#b0003a",
+          "isDark": true,
+          "lightValue": "#ff6090",
+          "value": "#e91e63"
+        },
+        {
+          "range": 600,
+          "darkValue": "#a00037",
+          "isDark": true,
+          "lightValue": "#ff5c8d",
+          "value": "#d81b60"
+        },
+        {
+          "range": 700,
+          "darkValue": "#8c0032",
+          "isDark": true,
+          "lightValue": "#fa5788",
+          "value": "#c2185b"
+        },
+        {
+          "range": 800,
+          "darkValue": "#78002e",
+          "isDark": true,
+          "lightValue": "#e35183",
+          "value": "#ad1457"
+        },
+        {
+          "range": 900,
+          "darkValue": "#560027",
+          "isDark": true,
+          "lightValue": "#bc477b",
+          "value": "#880e4f"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#c94f7c",
+          "isDark": false,
+          "lightValue": "#ffb2dd",
+          "value": "#ff80ab"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c60055",
+          "isDark": true,
+          "lightValue": "#ff79b0",
+          "value": "#ff4081"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#bb002f",
+          "isDark": true,
+          "lightValue": "#ff5983",
+          "value": "#f50057"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#8e0038",
+          "isDark": true,
+          "lightValue": "#fd558f",
+          "value": "#c51162"
+        }
+      ]
+    },
+    {
+      "name": "Purple",
+      "order": 3,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#af8eb5",
+          "isDark": false,
+          "lightValue": "#fff1ff",
+          "value": "#e1bee7"
+        },
+        {
+          "range": 200,
+          "darkValue": "#9c64a6",
+          "isDark": false,
+          "lightValue": "#ffc4ff",
+          "value": "#ce93d8"
+        },
+        {
+          "range": 300,
+          "darkValue": "#883997",
+          "isDark": true,
+          "lightValue": "#ee98fb",
+          "value": "#ba68c8"
+        },
+        {
+          "range": 400,
+          "darkValue": "#790e8b",
+          "isDark": true,
+          "lightValue": "#df78ef",
+          "value": "#ab47bc"
+        },
+        {
+          "range": 50,
+          "darkValue": "#c0b3c2",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#f3e5f5"
+        },
+        {
+          "range": 500,
+          "darkValue": "#6a0080",
+          "isDark": true,
+          "lightValue": "#d05ce3",
+          "value": "#9c27b0"
+        },
+        {
+          "range": 600,
+          "darkValue": "#5c007a",
+          "isDark": true,
+          "lightValue": "#c158dc",
+          "value": "#8e24aa"
+        },
+        {
+          "range": 700,
+          "darkValue": "#4a0072",
+          "isDark": true,
+          "lightValue": "#ae52d4",
+          "value": "#7b1fa2"
+        },
+        {
+          "range": 800,
+          "darkValue": "#38006b",
+          "isDark": true,
+          "lightValue": "#9c4dcc",
+          "value": "#6a1b9a"
+        },
+        {
+          "range": 900,
+          "darkValue": "#12005e",
+          "isDark": true,
+          "lightValue": "#7c43bd",
+          "value": "#4a148c"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#b64fc8",
+          "isDark": false,
+          "lightValue": "#ffb2ff",
+          "value": "#ea80fc"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#aa00c7",
+          "isDark": true,
+          "lightValue": "#ff79ff",
+          "value": "#e040fb"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#9e00c5",
+          "isDark": true,
+          "lightValue": "#ff5bff",
+          "value": "#d500f9"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#7200ca",
+          "isDark": true,
+          "lightValue": "#e254ff",
+          "value": "#aa00ff"
+        }
+      ]
+    },
+    {
+      "name": "Red",
+      "order": 1,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#cb9ca1",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#ffcdd2"
+        },
+        {
+          "range": 200,
+          "darkValue": "#ba6b6c",
+          "isDark": false,
+          "lightValue": "#ffcccb",
+          "value": "#ef9a9a"
+        },
+        {
+          "range": 300,
+          "darkValue": "#af4448",
+          "isDark": false,
+          "lightValue": "#ffa4a2",
+          "value": "#e57373"
+        },
+        {
+          "range": 400,
+          "darkValue": "#b61827",
+          "isDark": true,
+          "lightValue": "#ff867c",
+          "value": "#ef5350"
+        },
+        {
+          "range": 50,
+          "darkValue": "#ccb9bc",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#ffebee"
+        },
+        {
+          "range": 500,
+          "darkValue": "#ba000d",
+          "isDark": true,
+          "lightValue": "#ff7961",
+          "value": "#f44336"
+        },
+        {
+          "range": 600,
+          "darkValue": "#ab000d",
+          "isDark": true,
+          "lightValue": "#ff6f60",
+          "value": "#e53935"
+        },
+        {
+          "range": 700,
+          "darkValue": "#9a0007",
+          "isDark": true,
+          "lightValue": "#ff6659",
+          "value": "#d32f2f"
+        },
+        {
+          "range": 800,
+          "darkValue": "#8e0000",
+          "isDark": true,
+          "lightValue": "#ff5f52",
+          "value": "#c62828"
+        },
+        {
+          "range": 900,
+          "darkValue": "#7f0000",
+          "isDark": true,
+          "lightValue": "#f05545",
+          "value": "#b71c1c"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#c85a54",
+          "isDark": false,
+          "lightValue": "#ffbcaf",
+          "value": "#ff8a80"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c50e29",
+          "isDark": true,
+          "lightValue": "#ff867f",
+          "value": "#ff5252"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#c4001d",
+          "isDark": true,
+          "lightValue": "#ff616f",
+          "value": "#ff1744"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#9b0000",
+          "isDark": true,
+          "lightValue": "#ff5131",
+          "value": "#d50000"
+        }
+      ]
+    },
+    {
+      "name": "Teal",
+      "order": 10,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#82ada9",
+          "isDark": false,
+          "lightValue": "#e5ffff",
+          "value": "#b2dfdb"
+        },
+        {
+          "range": 200,
+          "darkValue": "#4f9a94",
+          "isDark": false,
+          "lightValue": "#b2fef7",
+          "value": "#80cbc4"
+        },
+        {
+          "range": 300,
+          "darkValue": "#00867d",
+          "isDark": false,
+          "lightValue": "#82e9de",
+          "value": "#4db6ac"
+        },
+        {
+          "range": 400,
+          "darkValue": "#00766c",
+          "isDark": false,
+          "lightValue": "#64d8cb",
+          "value": "#26a69a"
+        },
+        {
+          "range": 50,
+          "darkValue": "#aebfbe",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e0f2f1"
+        },
+        {
+          "range": 500,
+          "darkValue": "#00675b",
+          "isDark": true,
+          "lightValue": "#52c7b8",
+          "value": "#009688"
+        },
+        {
+          "range": 600,
+          "darkValue": "#005b4f",
+          "isDark": true,
+          "lightValue": "#4ebaaa",
+          "value": "#00897b"
+        },
+        {
+          "range": 700,
+          "darkValue": "#004c40",
+          "isDark": true,
+          "lightValue": "#48a999",
+          "value": "#00796b"
+        },
+        {
+          "range": 800,
+          "darkValue": "#003d33",
+          "isDark": true,
+          "lightValue": "#439889",
+          "value": "#00695c"
+        },
+        {
+          "range": 900,
+          "darkValue": "#00251a",
+          "isDark": true,
+          "lightValue": "#39796b",
+          "value": "#004d40"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#75ccb9",
+          "isDark": false,
+          "lightValue": "#dbffff",
+          "value": "#a7ffeb"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#14cba8",
+          "isDark": false,
+          "lightValue": "#9effff",
+          "value": "#64ffda"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#00b686",
+          "isDark": false,
+          "lightValue": "#6effe8",
+          "value": "#1de9b6"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#008e76",
+          "isDark": false,
+          "lightValue": "#5df2d6",
+          "value": "#00bfa5"
+        }
+      ]
+    },
+    {
+      "name": "Yellow",
+      "order": 15,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#cbc693",
+          "isDark": false,
+          "lightValue": "#fffff7",
+          "value": "#fff9c4"
+        },
+        {
+          "range": 200,
+          "darkValue": "#cbc26d",
+          "isDark": false,
+          "lightValue": "#ffffcf",
+          "value": "#fff59d"
+        },
+        {
+          "range": 300,
+          "darkValue": "#cabf45",
+          "isDark": false,
+          "lightValue": "#ffffa8",
+          "value": "#fff176"
+        },
+        {
+          "range": 400,
+          "darkValue": "#c9bc1f",
+          "isDark": false,
+          "lightValue": "#ffff8b",
+          "value": "#ffee58"
+        },
+        {
+          "range": 50,
+          "darkValue": "#cccab5",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fffde7"
+        },
+        {
+          "range": 500,
+          "darkValue": "#c8b900",
+          "isDark": false,
+          "lightValue": "#ffff72",
+          "value": "#ffeb3b"
+        },
+        {
+          "range": 600,
+          "darkValue": "#c6a700",
+          "isDark": false,
+          "lightValue": "#ffff6b",
+          "value": "#fdd835"
+        },
+        {
+          "range": 700,
+          "darkValue": "#c49000",
+          "isDark": false,
+          "lightValue": "#fff263",
+          "value": "#fbc02d"
+        },
+        {
+          "range": 800,
+          "darkValue": "#c17900",
+          "isDark": false,
+          "lightValue": "#ffd95a",
+          "value": "#f9a825"
+        },
+        {
+          "range": 900,
+          "darkValue": "#bc5100",
+          "isDark": false,
+          "lightValue": "#ffb04c",
+          "value": "#f57f17"
+        },
+        {
+          "range": 1000,
+          "darkValue": "#cacc5d",
+          "isDark": false,
+          "lightValue": "#ffffbf",
+          "value": "#ffff8d"
+        },
+        {
+          "range": 1100,
+          "darkValue": "#c7cc00",
+          "isDark": false,
+          "lightValue": "#ffff5a",
+          "value": "#ffff00"
+        },
+        {
+          "range": 1200,
+          "darkValue": "#c7b800",
+          "isDark": false,
+          "lightValue": "#ffff56",
+          "value": "#ffea00"
+        },
+        {
+          "range": 1300,
+          "darkValue": "#c7a500",
+          "isDark": false,
+          "lightValue": "#ffff52",
+          "value": "#ffd600"
+        }
+      ]
+    },
+    {
+      "name": "Blue Grey",
+      "order": 21,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#9ea7aa",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#cfd8dc"
+        },
+        {
+          "range": 200,
+          "darkValue": "#808e95",
+          "isDark": false,
+          "lightValue": "#e2f1f8",
+          "value": "#b0bec5"
+        },
+        {
+          "range": 300,
+          "darkValue": "#62757f",
+          "isDark": false,
+          "lightValue": "#c1d5e0",
+          "value": "#90a4ae"
+        },
+        {
+          "range": 400,
+          "darkValue": "#4b636e",
+          "isDark": true,
+          "lightValue": "#a7c0cd",
+          "value": "#78909c"
+        },
+        {
+          "range": 50,
+          "darkValue": "#babdbe",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#eceff1"
+        },
+        {
+          "range": 500,
+          "darkValue": "#34515e",
+          "isDark": true,
+          "lightValue": "#8eacbb",
+          "value": "#607d8b"
+        },
+        {
+          "range": 600,
+          "darkValue": "#29434e",
+          "isDark": true,
+          "lightValue": "#819ca9",
+          "value": "#546e7a"
+        },
+        {
+          "range": 700,
+          "darkValue": "#1c313a",
+          "isDark": true,
+          "lightValue": "#718792",
+          "value": "#455a64"
+        },
+        {
+          "range": 800,
+          "darkValue": "#102027",
+          "isDark": true,
+          "lightValue": "#62727b",
+          "value": "#37474f"
+        },
+        {
+          "range": 900,
+          "darkValue": "#000a12",
+          "isDark": true,
+          "lightValue": "#4f5b62",
+          "value": "#263238"
+        }
+      ]
+    },
+    {
+      "name": "Brown",
+      "order": 19,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#a69b97",
+          "isDark": false,
+          "lightValue": "#fffffb",
+          "value": "#d7ccc8"
+        },
+        {
+          "range": 200,
+          "darkValue": "#8c7b75",
+          "isDark": false,
+          "lightValue": "#efdcd5",
+          "value": "#bcaaa4"
+        },
+        {
+          "range": 300,
+          "darkValue": "#725b53",
+          "isDark": true,
+          "lightValue": "#d3b8ae",
+          "value": "#a1887f"
+        },
+        {
+          "range": 400,
+          "darkValue": "#5f4339",
+          "isDark": true,
+          "lightValue": "#be9c91",
+          "value": "#8d6e63"
+        },
+        {
+          "range": 50,
+          "darkValue": "#bdb9b7",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#efebe9"
+        },
+        {
+          "range": 500,
+          "darkValue": "#4b2c20",
+          "isDark": true,
+          "lightValue": "#a98274",
+          "value": "#795548"
+        },
+        {
+          "range": 600,
+          "darkValue": "#40241a",
+          "isDark": true,
+          "lightValue": "#9c786c",
+          "value": "#6d4c41"
+        },
+        {
+          "range": 700,
+          "darkValue": "#321911",
+          "isDark": true,
+          "lightValue": "#8b6b61",
+          "value": "#5d4037"
+        },
+        {
+          "range": 800,
+          "darkValue": "#260e04",
+          "isDark": true,
+          "lightValue": "#7b5e57",
+          "value": "#4e342e"
+        },
+        {
+          "range": 900,
+          "darkValue": "#1b0000",
+          "isDark": true,
+          "lightValue": "#6a4f4b",
+          "value": "#3e2723"
+        }
+      ]
+    },
+    {
+      "name": "Grey",
+      "order": 20,
+      "shades": [
+        {
+          "range": 100,
+          "darkValue": "#c2c2c2",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#f5f5f5"
+        },
+        {
+          "range": 200,
+          "darkValue": "#bcbcbc",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#eeeeee"
+        },
+        {
+          "range": 300,
+          "darkValue": "#aeaeae",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#e0e0e0"
+        },
+        {
+          "range": 400,
+          "darkValue": "#8d8d8d",
+          "isDark": false,
+          "lightValue": "#efefef",
+          "value": "#bdbdbd"
+        },
+        {
+          "range": 50,
+          "darkValue": "#c7c7c7",
+          "isDark": false,
+          "lightValue": "#ffffff",
+          "value": "#fafafa"
+        },
+        {
+          "range": 500,
+          "darkValue": "#707070",
+          "isDark": false,
+          "lightValue": "#cfcfcf",
+          "value": "#9e9e9e"
+        },
+        {
+          "range": 600,
+          "darkValue": "#494949",
+          "isDark": true,
+          "lightValue": "#a4a4a4",
+          "value": "#757575"
+        },
+        {
+          "range": 700,
+          "darkValue": "#373737",
+          "isDark": true,
+          "lightValue": "#8e8e8e",
+          "value": "#616161"
+        },
+        {
+          "range": 800,
+          "darkValue": "#1b1b1b",
+          "isDark": true,
+          "lightValue": "#6d6d6d",
+          "value": "#424242"
+        },
+        {
+          "range": 900,
+          "darkValue": "#000000",
+          "isDark": true,
+          "lightValue": "#484848",
+          "value": "#212121"
+        }
+      ]
+    }
+  ]
+}
