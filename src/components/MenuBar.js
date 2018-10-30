@@ -13,7 +13,7 @@ const MenuBar = props => {
           onClick={props.handleSectionChange}
           style={{ cursor: 'pointer' }}
         />
-        Material colors
+        {props.section}
         <KeyboardArrowRight
           size="24"
           id="right"

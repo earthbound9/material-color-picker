@@ -8,6 +8,7 @@ import ColorType from './components/ColorType';
 import ColorCode from './components/ColorCode';
 import ColorPicker from './components/ColorPicker/index';
 import matData from './material-colors.json';
+import IbmColors from './components/IBMColors/';
 
 const clipboard = remote.clipboard;
 
@@ -17,8 +18,9 @@ class App extends Component {
     currentColor: 'rgb(144, 164, 174)',
     colorType: 'hexValue',
     colorValue: '#90a4ae',
-    sections: ['materialPicker', 'colorPicker'],
-    currentSection: 'materialPicker'
+    sections: ['IBM Colors', 'Material Colors', 'Color Picker'],
+    currentSection: 'IBM Colors',
+    sectionPosition: 0
   };
 
   componentDidMount() {
@@ -66,16 +68,23 @@ class App extends Component {
   handleSectionChange = e => {
     e.persist();
     const sectionClick = e.target.parentElement.id;
+    const sectionNum = this.state.sectionPosition;
     let section;
 
     sectionClick.length > 1
       ? (section = e.target.parentElement.id)
       : (section = e.target.id);
 
-    if (section === 'left') {
-      this.setState({ currentSection: this.state.sections[0] });
-    } else if (section === 'right') {
-      this.setState({ currentSection: this.state.sections[1] });
+    if (section === 'left' && sectionNum > 0) {
+      this.setState({
+        currentSection: this.state.sections[sectionNum - 1],
+        sectionPosition: this.state.sectionPosition - 1
+      });
+    } else if (section === 'right' && sectionNum < 2) {
+      this.setState({
+        currentSection: this.state.sections[sectionNum + 1],
+        sectionPosition: this.state.sectionPosition + 1
+      });
     }
   };
 
@@ -92,8 +101,11 @@ class App extends Component {
 
     return (
       <div>
-        <MenuBar handleSectionChange={this.handleSectionChange} />
-        {currentSection === 'materialPicker' && (
+        <MenuBar
+          handleSectionChange={this.handleSectionChange}
+          section={this.state.currentSection}
+        />
+        {currentSection === 'Material Colors' && (
           <MaterialPicker
             className="section"
             colorList={sortedColors}
@@ -103,7 +115,7 @@ class App extends Component {
           />
         )}
 
-        {currentSection === 'colorPicker' && (
+        {currentSection === 'Color Picker' && (
           <ColorPicker
             handleColorType={this.handleColorType}
             handleClipboard={this.handleClipboard}
@@ -111,7 +123,7 @@ class App extends Component {
           />
         )}
 
-        {currentSection === 'materialPicker' && (
+        {currentSection === 'Material Colors' && (
           <ColorType
             bgColor={currentColor}
             isDark={isDark}
@@ -128,6 +140,7 @@ class App extends Component {
             />
           </ColorType>
         )}
+        {currentSection === 'IBM Colors' && <IbmColors />}
       </div>
     );
   }
