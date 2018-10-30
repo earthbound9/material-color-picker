@@ -53,10 +53,8 @@ const ColorCodeButton = styled('button')`
   cursor: pointer;
   border: none;
   position: relative;
-  background-color: ${props => (props.isDark ? '#78909c' : '#cfd8dc')};
+  background-color: ${props => (props.isDark ? '#40D5BB' : '#009BEF')};
   border-radius: 3px;
-  border-bottom: ${props =>
-    props.isDark ? '1px solid #cfd8dc' : '1px solid #333'};
   text-transform: ${props =>
     props.colorType === 'hexValue' ? 'uppercase' : 'lowercase'};
   padding: 5px 10px;

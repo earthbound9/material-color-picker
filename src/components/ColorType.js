@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const ColorType = props => {
   const { bgColor, isDark, colorType } = props;
   return (
-    <FormWrapper bgColor={bgColor} isDark={isDark}>
+    <FormWrapper ibm={props.ibm} bgColor={bgColor} isDark={isDark}>
       <form onChange={props.onChange}>
         <input
           type="radio"
@@ -41,7 +41,7 @@ const FormWrapper = styled('div')`
   background-color: ${props => props.bgColor};
   color: ${props => (props.isDark ? 'white' : '#333')};
   display: flex;
-  height: 60px;
+  height: ${props => (props.ibm ? '50px' : '60px')};
   align-items: center;
   padding: ${props => (props.padding ? '0 0 0 55px' : '0')};
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { remote } from 'electron';
 import tinycolor from 'tinycolor2';
+import styled from 'styled-components';
 
 import MenuBar from './components/MenuBar';
 import MaterialPicker from './components/MaterialPicker/index';
@@ -9,23 +10,32 @@ import ColorCode from './components/ColorCode';
 import ColorPicker from './components/ColorPicker/index';
 import matData from './material-colors.json';
 import IbmColors from './components/IBMColors/';
+import ibmColorFile from './ibm-colors.json';
+import TailwindColors from './components/TailwindColors/';
 
 const clipboard = remote.clipboard;
 
 class App extends Component {
   state = {
     matColors: [],
-    currentColor: 'rgb(144, 164, 174)',
+    ibmColors: [],
+    currentColor: 'rgb(111, 120, 120)',
     colorType: 'hexValue',
     colorValue: '#90a4ae',
-    sections: ['IBM Colors', 'Material Colors', 'Color Picker'],
+    sections: [
+      'Tailwind Colors',
+      'IBM Colors',
+      'Material Colors',
+      'Color Picker'
+    ],
     currentSection: 'IBM Colors',
-    sectionPosition: 0
+    sectionPosition: 1
   };
 
   componentDidMount() {
     this.setState({
-      matColors: matData.colors
+      matColors: matData.colors,
+      ibmColors: ibmColorFile.palettes
     });
   }
 
@@ -80,7 +90,7 @@ class App extends Component {
         currentSection: this.state.sections[sectionNum - 1],
         sectionPosition: this.state.sectionPosition - 1
       });
-    } else if (section === 'right' && sectionNum < 2) {
+    } else if (section === 'right' && sectionNum < 3) {
       this.setState({
         currentSection: this.state.sections[sectionNum + 1],
         sectionPosition: this.state.sectionPosition + 1
@@ -124,26 +134,44 @@ class App extends Component {
         )}
 
         {currentSection === 'Material Colors' && (
-          <ColorType
-            bgColor={currentColor}
-            isDark={isDark}
-            onChange={this.handleColorType}
-            colorValue={colorValue}
-            colorType={colorType}
-            handleClipboard={this.handleClipboard}
-          >
-            <ColorCode
-              handleClipboard={this.handleClipboard}
+          <ColorTypeWrapper style={{ background: currentColor }}>
+            <ColorType
+              bgColor={currentColor}
+              isDark={isDark}
+              onChange={this.handleColorType}
               colorValue={colorValue}
               colorType={colorType}
-              isDark={isDark}
-            />
-          </ColorType>
+              handleClipboard={this.handleClipboard}
+            >
+              <ColorCode
+                handleClipboard={this.handleClipboard}
+                colorValue={colorValue}
+                colorType={colorType}
+                isDark={isDark}
+              />
+            </ColorType>
+          </ColorTypeWrapper>
         )}
-        {currentSection === 'IBM Colors' && <IbmColors />}
+        {currentSection === 'IBM Colors' && (
+          <IbmColors
+            colors={this.state.ibmColors}
+            colorType={colorType}
+            isDark={isDark}
+            currentColor={currentColor}
+            colorValue={colorValue}
+            handleColorType={this.handleColorType}
+            handleClipboard={this.handleClipboard}
+            handleColorPick={this.handleColorPick}
+          />
+        )}
+        {currentSection === 'Tailwind Colors' && <TailwindColors />}
       </div>
     );
   }
 }
 
 export default App;
+
+const ColorTypeWrapper = styled.div`
+  padding-left: 60px;
+`;
