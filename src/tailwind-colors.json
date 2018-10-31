@@ -1,106 +1,144 @@
 {
   "colors": [
     {
+      "id": 1,
       "name": "grey",
-      "black": "#22292f",
-      "darkest": "#3d4852",
-      "darker": "#606f7b",
-      "dark": "#8795a1",
       "base": "#b8c2cc",
-      "light": "#dae1e7",
-      "lighter": "#f1f5f8",
-      "lightest": "#f8fafc",
-      "white": "#ffffff"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#3d4852" },
+        { "id": 2, "scale": "Darker", "value": "#606f7b" },
+        { "id": 3, "scale": "Dark", "value": "#8795a1" },
+        { "id": 4, "scale": "Base", "value": "#b8c2cc" },
+        { "id": 5, "scale": "Light", "value": "#dae1e7" },
+        { "id": 6, "scale": "Lighter", "value": "#f1f5f8" },
+        { "id": 7, "scale": "Lightest", "value": "#f8fafc" }
+      ]
     },
     {
+      "id": 2,
       "name": "red",
-      "darkest": "#3b0d0c",
-      "darker": "#621b18",
-      "dark": "#cc1f1a",
       "base": "#e3342f",
-      "light": "#ef5753",
-      "lighter": "#f9acaa",
-      "lightest": "#fcebea"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#3b0d0c" },
+        { "id": 2, "scale": "Darker", "value": "#621b18" },
+        { "id": 3, "scale": "Dark", "value": "#cc1f1a" },
+        { "id": 4, "scale": "Base", "value": "#e3342f" },
+        { "id": 5, "scale": "Light", "value": "#ef5753" },
+        { "id": 6, "scale": "Lighter", "value": "#f9acaa" },
+        { "id": 7, "scale": "Lightest", "value": "#fcebea" }
+      ]
     },
     {
+      "id": 3,
       "name": "orange",
-      "darkest": "#462a16",
-      "darker": "#613b1f",
-      "dark": "#de751f",
       "base": "#f6993f",
-      "light": "#faad63",
-      "lighter": "#fcd9b6",
-      "lightest": "#fff5eb"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#462a16" },
+        { "id": 2, "scale": "Darker", "value": "#613b1f" },
+        { "id": 3, "scale": "Dark", "value": "#de751f" },
+        { "id": 4, "scale": "Base", "value": "#f6993f" },
+        { "id": 5, "scale": "Light", "value": "#faad63" },
+        { "id": 6, "scale": "Lighter", "value": "#fcd9b6" },
+        { "id": 7, "scale": "Lightest", "value": "#fff5eb" }
+      ]
     },
     {
+      "id": 4,
       "name": "yellow",
-      "darkest": "#453411",
-      "darker": "#684f1d",
-      "dark": "#f2d024",
       "base": "#ffed4a",
-      "light": "#fff382",
-      "lighter": "#fff9c2",
-      "lightest": "#fcfbeb"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#453411" },
+        { "id": 2, "scale": "Darker", "value": "#684f1d" },
+        { "id": 3, "scale": "Dark", "value": "#f2d024" },
+        { "id": 4, "scale": "Base", "value": "#ffed4a" },
+        { "id": 5, "scale": "Light", "value": "#fff382" },
+        { "id": 6, "scale": "Lighter", "value": "#fff9c2" },
+        { "id": 7, "scale": "Lightest", "value": "#fcfbeb" }
+      ]
     },
     {
+      "id": 5,
       "name": "green",
-      "darkest": "#0f2f21",
-      "darker": "#1a4731",
-      "dark": "#1f9d55",
       "base": "#38c172",
-      "light": "#51d88a",
-      "lighter": "#a2f5bf",
-      "lightest": "#e3fcec"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#0f2f21" },
+        { "id": 2, "scale": "Darker", "value": "#1a4731" },
+        { "id": 3, "scale": "Dark", "value": "#1f9d55" },
+        { "id": 4, "scale": "Base", "value": "#38c172" },
+        { "id": 5, "scale": "Light", "value": "#51d88a" },
+        { "id": 6, "scale": "Lighter", "value": "#a2f5bf" },
+        { "id": 7, "scale": "Lightest", "value": "#e3fcec" }
+      ]
     },
     {
+      "id": 6,
       "name": "teal",
-      "darkest": "#0d3331",
-      "darker": "#20504f",
-      "dark": "#38a89d",
       "base": "#4dc0b5",
-      "light": "#64d5ca",
-      "lighter": "#a0f0ed",
-      "lightest": "#e8fffe"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#0d3331" },
+        { "id": 2, "scale": "Darker", "value": "#20504f" },
+        { "id": 3, "scale": "Dark", "value": "#38a89d" },
+        { "id": 4, "scale": "Base", "value": "#4dc0b5" },
+        { "id": 5, "scale": "Light", "value": "#64d5ca" },
+        { "id": 6, "scale": "Lighter", "value": "#a0f0ed" },
+        { "id": 7, "scale": "Lightest", "value": "#e8fffe" }
+      ]
     },
     {
+      "id": 7,
       "name": "blue",
-      "darkest": "#12283a",
-      "darker": "#1c3d5a",
-      "dark": "#2779bd",
       "base": "#3490dc",
-      "light": "#6cb2eb",
-      "lighter": "#bcdefa",
-      "lightest": "#eff8ff"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#12283a" },
+        { "id": 2, "scale": "Darker", "value": "#1c3d5a" },
+        { "id": 3, "scale": "Dark", "value": "#2779bd" },
+        { "id": 4, "scale": "Base", "value": "#3490dc" },
+        { "id": 5, "scale": "Light", "value": "#6cb2eb" },
+        { "id": 6, "scale": "Lighter", "value": "#bcdefa" },
+        { "id": 7, "scale": "Lightest", "value": "#eff8ff" }
+      ]
     },
     {
+      "id": 8,
       "name": "indigo",
-      "darkest": "#191e38",
-      "darker": "#2f365f",
-      "dark": "#5661b3",
       "base": "#6574cd",
-      "light": "#7886d7",
-      "lighter": "#b2b7ff",
-      "lightest": "#e6e8ff"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#191e38" },
+        { "id": 2, "scale": "Darker", "value": "#2f365f" },
+        { "id": 3, "scale": "Dark", "value": "#5661b3" },
+        { "id": 4, "scale": "Base", "value": "#6574cd" },
+        { "id": 5, "scale": "Light", "value": "#7886d7" },
+        { "id": 6, "scale": "Lighter", "value": "#b2b7ff" },
+        { "id": 7, "scale": "Lightest", "value": "#e6e8ff" }
+      ]
     },
     {
+      "id": 9,
       "name": "purple",
-      "darkest": "#21183c",
-      "darker": "#382b5f",
-      "base": "#794acf",
-      "purple": "#9561e2",
-      "light": "#a779e9",
-      "lighter": "#d6bbfc",
-      "lightest": "#f3ebff"
+      "base": "#9561E2",
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#21183c" },
+        { "id": 2, "scale": "Darker", "value": "#382b5f" },
+        { "id": 3, "scale": "Dark", "value": "#794ACF" },
+        { "id": 4, "scale": "Base", "value": "#9561E2" },
+        { "id": 5, "scale": "Light", "value": "#a779e9" },
+        { "id": 6, "scale": "Lighter", "value": "#d6bbfc" },
+        { "id": 7, "scale": "Lightest", "value": "#f3ebff" }
+      ]
     },
     {
+      "id": 10,
       "name": "pink",
-      "darkest": "#451225",
-      "darker": "#6f213f",
-      "dark": "#eb5286",
       "base": "#f66d9b",
-      "light": "#fa7ea8",
-      "lighter": "#ffbbca",
-      "lightest": "#ffebef"
+      "colorScales": [
+        { "id": 1, "scale": "Darkest", "value": "#451225" },
+        { "id": 2, "scale": "Darker", "value": "#6f213f" },
+        { "id": 3, "scale": "Dark", "value": "#eb5286" },
+        { "id": 4, "scale": "Base", "value": "#f66d9b" },
+        { "id": 5, "scale": "Light", "value": "#fa7ea8" },
+        { "id": 6, "scale": "Lighter", "value": "#ffbbca" },
+        { "id": 7, "scale": "Lightest", "value": "#ffebef" }
+      ]
     }
   ]
 }

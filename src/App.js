@@ -12,6 +12,7 @@ import matData from './material-colors.json';
 import IbmColors from './components/IBMColors/';
 import ibmColorFile from './ibm-colors.json';
 import TailwindColors from './components/TailwindColors/';
+import tailwindColorFile from './tailwind-colors.json';
 
 const clipboard = remote.clipboard;
 
@@ -19,6 +20,7 @@ class App extends Component {
   state = {
     matColors: [],
     ibmColors: [],
+    tailwindColors: [],
     currentColor: 'rgb(111, 120, 120)',
     colorType: 'hexValue',
     colorValue: '#90a4ae',
@@ -28,14 +30,15 @@ class App extends Component {
       'Material Colors',
       'Color Picker'
     ],
-    currentSection: 'IBM Colors',
-    sectionPosition: 1
+    currentSection: 'Tailwind Colors',
+    sectionPosition: 0
   };
 
   componentDidMount() {
     this.setState({
       matColors: matData.colors,
-      ibmColors: ibmColorFile.palettes
+      ibmColors: ibmColorFile.palettes,
+      tailwindColors: tailwindColorFile.colors
     });
   }
 
@@ -56,6 +59,7 @@ class App extends Component {
   handleColorPick = e => {
     const hexColor = e.target.dataset.color;
     const type = this.state.colorType;
+    console.log(hexColor);
 
     this.setState({
       currentColor: hexColor
@@ -164,7 +168,18 @@ class App extends Component {
             handleColorPick={this.handleColorPick}
           />
         )}
-        {currentSection === 'Tailwind Colors' && <TailwindColors />}
+        {currentSection === 'Tailwind Colors' && (
+          <TailwindColors
+            colors={this.state.tailwindColors}
+            colorType={colorType}
+            isDark={isDark}
+            currentColor={currentColor}
+            colorValue={colorValue}
+            handleColorType={this.handleColorType}
+            handleClipboard={this.handleClipboard}
+            handleColorPick={this.handleColorPick}
+          />
+        )}
       </div>
     );
   }
