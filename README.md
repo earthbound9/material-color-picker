@@ -31,5 +31,6 @@ allow you to pick the type of color code to copy.
 
 at this time it is only optimized for linux but i will soon work on getting it working with windows.
 
-to install this you can just grab the .deb file from  
-release-builds/installers
+to install this you can just grab the .deb file from [Here](https://mega.nz/#!DpRWiIjR!in-8Ii23oGa2oOM4I-677lwlzqT4bPKd5QtWl5fsfM8)
+
+If your using arch linux you can grab the pkg file [Here](https://mega.nz/#!i9ZAzK4J!vM_a4-quVWk5hDxxL53uIHfSMheLXJgaE61xCWY6xbk)

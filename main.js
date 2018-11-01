@@ -33,7 +33,7 @@ function createWindow() {
   isDev && mainWindow.webContents.openDevTools({ mode: 'detach' });
 
   mainWindow.on('blur', function() {
-    //mainWindow.hide();
+    mainWindow.hide();
   });
 
   // Emitted when the window is closed.
